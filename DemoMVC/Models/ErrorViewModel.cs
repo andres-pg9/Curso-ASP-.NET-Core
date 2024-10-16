@@ -1,4 +1,4 @@
-namespace AspNetCoreTodo.Models;
+namespace DemoMVC.Models;
 
 public class ErrorViewModel
 {
