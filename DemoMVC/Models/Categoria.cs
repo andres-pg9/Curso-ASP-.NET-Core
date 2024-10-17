@@ -9,7 +9,8 @@ namespace DemoMVC.Models
 
         public string Descripcion {get; set;}
 
-        public List<Producto> Productos { get; set; }
+        //Cada categoria cuenta con una lista de productos
+        public List<Producto> Productos { get; set; } 
 
     }
 }

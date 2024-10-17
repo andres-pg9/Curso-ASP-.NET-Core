@@ -1,0 +1,38 @@
+-- SQLite
+--Categoria
+INSERT INTO Categorias (Nombre,Descripcion)
+VALUES ('Electronica', 'Productos electrónicos y dispositivos'), 
+    ('Ropa', 'Ropa y accesorios de moda'), 
+    ('Hogar', 'Artículos para el hogar y decoración'), 
+    ('Deportes', 'Artículos deportivos y equipos'), 
+    ('Salud y Belleza', 'Productos de salud y belleza');   
+
+INSERT INTO Proveedores (Nombre)
+VALUES ('Promoda'),   
+    ('Electronics'),
+    ('Hogar Total'),
+    ('Deportes Extremos'),
+    ('Belleza Total');
+
+INSERT INTO Productos (Nombre, Descripcion, Precio, CategoriaId, ProveedorId)
+VALUES 
+('Blusa', 'Blusa de moda para dama', 30.00, 2, 1),
+('Camiseta Deportiva', 'Camiseta deportiva para actividades al aire libre', 25.00, 4, 4),
+('Teléfono Inteligente', 'Teléfono inteligente con pantalla táctil', 500.00, 1, 2),
+('Televisor LED', 'Televisor LED de 50 pulgadas', 600.00, 1, 2),
+('Zapatillas Deportivas', 'Zapatillas deportivas para correr', 80.00, 4, 4),
+('Mesa de Centro', 'Mesa de centro moderna para sala de estar', 120.00, 3, 3),
+('Sofá', 'Sofá de tres plazas cómodo y elegante', 450.00, 3, 3),
+('Suéter', 'Suéter de lana para el invierno', 40.00, 2, 1),
+('Barra de Labios', 'Barra de labios de larga duración', 15.00, 5, 5),
+('Crema Hidratante', 'Crema hidratante para el rostro', 25.00, 5, 5),
+('Bicicleta de Montaña', 'Bicicleta para rutas de montaña y aventura', 800.00, 4, 4),
+('Monitor de 24 Pulgadas', 'Monitor de 24 pulgadas Full HD', 200.00, 1, 2),
+('Silla de Oficina', 'Silla ergonómica de oficina', 180.00, 3, 3),
+('Vestido', 'Vestido de verano para mujer', 50.00, 2, 1),
+('Audífonos Inalámbricos', 'Audífonos inalámbricos con cancelación de ruido', 150.00, 1, 2),
+('Chaqueta Deportiva', 'Chaqueta resistente al agua para actividades al aire libre', 70.00, 4, 4),
+('Toallas de Baño', 'Set de toallas de baño suaves', 35.00, 3, 3),
+('Perfume', 'Perfume floral para mujer', 60.00, 5, 5),
+('Jersey Deportivo', 'Jersey oficial del equipo de fútbol', 90.00, 4, 4),
+('Refrigerador', 'Refrigerador con capacidad de 500 litros', 1000.00, 3, 3);
