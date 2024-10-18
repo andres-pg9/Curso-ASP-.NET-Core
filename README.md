@@ -13,7 +13,7 @@ Instalar las siguientes dependencias:
 - dotnet tool install --global dotnet-ef
 
 Para crear las migraciones:
--dotnet ef migrations add MigracionInicial
+- dotnet ef migrations add MigracionInicial
 
 > [!TIP]
 > Se recomienda el uso de las extensiones C# Dev Kit, C# Extensions, .NET Install Tool y SQLite
