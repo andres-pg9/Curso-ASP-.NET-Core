@@ -5,11 +5,13 @@
 <div class="row">
     <table class="table">
         <thead>
-            <tr>Nombre</tr>
-            <tr>Descripcion</tr>
-            <tr>Precio</tr>
-            <tr>Categoria</tr>
-            <tr>Proveedor</tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Categoria</th>
+                <th>Proveedor</th>
+            </tr>
         </thead>
 
         <tbody>
@@ -26,10 +28,10 @@
                         @Html.DisplayFor(modelItem => item.Precio)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Categoria)
+                        @Html.DisplayFor(modelItem => item.Categoria.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Proveedor)
+                        @Html.DisplayFor(modelItem => item.Proveedor.Nombre)
                     </td>
                 </tr>
             }
